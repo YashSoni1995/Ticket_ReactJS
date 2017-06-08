@@ -1,0 +1,160 @@
+/* global */
+ul {
+    list-style: none;
+    margin: 50px;
+    padding: 0;
+}
+
+.fixwidth{
+    height: 150px !important;
+    width: 150px;
+}
+/* products */
+.products-list li {
+    float: left;
+    width: 100%;
+    margin-right: 5%;
+}
+
+.products-list li:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+/* single product */
+.product__price {
+    display: inline-block;
+    line-height: 34px;
+}
+
+.product__button-wrap {
+    float: right;
+}
+
+/* cart */
+.cart ul {
+    margin-bottom: .7em;
+}
+
+.cart-item {
+   padding: 18px;
+    margin-bottom: .3em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cart-item__name {
+    display: inline-block;
+}
+
+.cart-item__price {
+    float: right;
+}
+
+.cart__total {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 20px;
+    line-height: 1.1em;
+    text-align: right;
+}
+
+/* helpers */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+body {
+    background-color: #ddd;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.header {
+    font-size: 15px;
+    background-color: white;
+}
+
+.card {
+    background-color: white;
+    margin: 50px 6px;
+    border-radius: 8px;
+    padding: 0px;
+}
+
+.card-header {
+    background-color: #f5f5f5;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 0px;
+    border-radius: 8px 8px 0px 0px;
+}
+a{
+    color: black;
+}
+.thumbnail{
+    display: block;
+    padding: 0px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    box-shadow: 10px 10px 5px #eee;
+}
+.col-md-9, .col-md-3 {
+    padding: 0px;
+}
+.product_button-wrap{
+    min-height: 100px;
+       border-radius: 0px 4px 4px 0px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#32c487+0,368a7f+44,1e4d5c+100 */
+    background: #32c487; /* Old browsers */
+    background: -moz-linear-gradient(to right, #32c487 0%,#04a58f 44%,#199a9a 100%);/* FF3.6-15 */
+    background: -webkit-linear-gradient(to right, #32c487 0%,#04a58f 44%,#199a9a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #32c487 0%,#04a58f 44%,#199a9a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32c487', endColorstr='#1e4d5c',GradientType=1 ); /* IE6-9 */
+}
+.btn-primary{
+     margin-top: 23%;
+    margin-left: 10%;
+    border-color: ghostwhite;
+    border-radius: 20px;
+    background-color: white;
+    color: #32c487;
+}
+.btn-danger{
+     margin-top: 23%;
+    margin-left: 10%;
+    border-color: ghostwhite;
+    border-radius: 20px;
+    background-color: white;
+    color: #32c487;
+}
+.btn-primary:focus, .btn-primary:active, .btn-danger:focus, .btn-danger:active{
+     background-color: white;
+    color: #32c487;
+    border-color: ghostwhite;
+}
+
+.btn-primary:hover, .btn-danger:hover{
+    background-color: #04a58f;
+    border-color: ghostwhite;
+    color: white;
+}
+.product_price{
+    padding: 10px;
+}
+.alert-danger{
+    margin: 0px 10px;
+}
